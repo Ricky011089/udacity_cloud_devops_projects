@@ -39,3 +39,4 @@ $ scripts/create.sh udagram-servers-stack servers.yml servers-params.json
     -   Load Balancer
     -   Target Group
 - Once the above steps are complete, you can find the URL of application in the outputs section of `udagram-servers-stack` CloudFormarion stack.
+URL :  http://udagr-webap-92bgz0qkjod2-1816272490.us-west-2.elb.amazonaws.com/

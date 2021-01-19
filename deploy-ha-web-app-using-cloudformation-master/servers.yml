@@ -53,7 +53,7 @@ Resources:
           apt-get update
           apt-get install apache2 -y
           mv /var/www/html/index.html /var/www/html/index_old.html
-          wget -P /var/www/html https://project2udacity.s3-us-west-2.amazonaws.com/index.html
+          wget -P /var/www/html https://projectudacity2.s3-us-west-2.amazonaws.com/index.html
           systemctl start apache2.service
       ImageId: ami-005bdb005fb00e791
       SecurityGroups:
